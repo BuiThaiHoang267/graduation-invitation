@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 const lines = [
   { label: '> graduation.init()', tag: 'OK' },
   { label: '> loading profile: bui-thai-hoang', tag: 'OK' },
-  { label: '> fetching event metadata · 10/06/2026', tag: 'OK' },
+  { label: '> fetching event · 10/06/2026', tag: 'OK' },
   { label: '> mounting aurora background', tag: 'OK' },
   { label: '> graduation.exe ready', tag: '✓' },
 ] as const

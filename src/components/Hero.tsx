@@ -52,19 +52,12 @@ export function Hero() {
           <span className="text-white">{invitation.schoolShort}</span>
         </motion.p>
 
-        <motion.div variants={item} className="mt-14 flex items-center gap-2">
-          <motion.span
-            animate={{ opacity: [0.65, 1, 0.65] }}
-            transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
-            className="text-sm font-medium text-accent-cyan drop-shadow-[0_0_12px_rgba(34,211,238,0.4)]"
-          >
-            Kéo xuống dưới nè
-          </motion.span>
+        <motion.div variants={item} className="mt-14 flex items-center justify-center">
           <motion.span
             aria-hidden
-            animate={{ y: [0, 6, 0] }}
-            transition={{ duration: 1.6, repeat: Infinity, ease: 'easeInOut' }}
-            className="text-accent-cyan"
+            animate={{ y: [0, 6, 0], opacity: [0.7, 1, 0.7] }}
+            transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
+            className="text-2xl text-accent-cyan drop-shadow-[0_0_12px_rgba(34,211,238,0.5)]"
           >
             ↓
           </motion.span>

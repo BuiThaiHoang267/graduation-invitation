@@ -125,7 +125,8 @@ function InfoItem({ icon, label, value, href }: InfoItemProps) {
     </>
   )
 
-  const classes = 'glass flex items-start gap-3 p-4'
+  const classes =
+    'glass flex items-start gap-3 p-4 bg-gradient-to-br from-accent-cyan/[0.06] via-transparent to-accent-violet/[0.06]'
 
   if (href) {
     const external = href.startsWith('http')
